@@ -88,6 +88,11 @@ export default function Home() {
                 Learn More
               </a>
             </div>
+            <a
+                href="/"
+                className="inline-flex justify-center underline px-12 py-3 text-md font-medium text-white hover:text-sky-800 focus:outline-none  active:text-sky-700 sm:w-auto">
+                Generate New Islamic Content
+              </a>
           </div>
         </div>
       </section>
