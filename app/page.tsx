@@ -38,7 +38,7 @@ export default function Home() {
 
     const { name, description, target } = formData; // Access form data from state
 
-    if (formData.name.trim() === '' || formData.description.trim() === '') {
+    if (formData.name.trim() === '' || formData.description.trim() === ''|| formData.target.trim() === '') {
       setLoading(false);
       alert('Please fill all form fields.');
       return;
@@ -112,8 +112,17 @@ export default function Home() {
             <textarea rows={3} id="description" className="mb-2 p-2 text-md border rounded-md resize-none text-black"
               name="description" placeholder="Website Description..." onChange={handleInputChange}></textarea>
             <label htmlFor="target" className="mb-2 text-sm font-medium ">Target Users:</label>
-            <input type="text" id="target" className="p-2 text-md border rounded-md text-black"
-              name="target" onChange={handleInputChange} />
+            <select id="target" className="p-2 text-md border rounded-md text-black"
+            name="target" onChange={handleInputChange}>
+              <option value="">-- Select an option --</option>
+              <option value="Muslims of Different Ages">Muslims of Different Ages</option>
+              <option value="Muslim Women">Muslim Women</option>
+              <option value="Islamic Scholars and Students">Islamic Scholars and Students</option>
+              <option value="Parents and Families">Parents and Families</option>
+              <option value="Muslims of Different Ages">Non-Muslims</option>
+            </select>
+            {/* <input type="text" id="target" className="p-2 text-md border rounded-md text-black"
+              name="target" onChange={handleInputChange} /> */}
           </div>
 
           <div className="flex justify-center">
