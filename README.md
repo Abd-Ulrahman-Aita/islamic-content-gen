@@ -23,7 +23,7 @@ This application is built with Next.js, a React framework, to create an interact
 1. Clone the repository: 
 
    ```bash
-   git clone https://github.com/Abd-Ulrahman-Aita/islamic-content-gen.git```
+   git clone https://github.com/Abd-Ulrahman-Aita/islamic-content-gen.git
 
 First, run the development server:
 
