@@ -17,7 +17,7 @@ export async function POST(request: Request) {
         const messages = [
             { role: 'system', content: "You are a helpful assistant that answers Islamic questions." },
             {
-                role: 'user', content: `Where Target Users is Womens: Give me json object called islamicData 
+                role: 'user', content: `Where Target Users is Muslims: Give me json object called islamicData 
                 that contain an object for an introduction about ${req.name} called intro and have two parameters 
                 title and content and islamicData also contain an json array for ${req.description} 
                 most important 4 key points called keyPoints and each object in keyPoints have two parameters 
