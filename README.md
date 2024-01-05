@@ -16,15 +16,19 @@ This application is built with Next.js, a React framework, to create an interact
 
 ### Prerequisites 
 
-- Node.js: Ensure that you have Node.js installed on your machine. 
+- Node.js: Ensure that you have Node.js installed on your machine.
+- Yarn: Ensure that Yarn is installed on your system. You can install Yarn globally using npm:
+```bash
+npm install -g yarn
+```
 
 ### Installation 
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Abd-Ulrahman-Aita/islamic-content-gen.git
-   ```
+```bash
+git clone https://github.com/Abd-Ulrahman-Aita/islamic-content-gen.git
+```
 
 2. Navigate to the project directory:
 
