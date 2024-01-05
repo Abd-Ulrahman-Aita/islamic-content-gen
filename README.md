@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Islamic Content Generator 
+
+Welcome to the Islamic Content Generator project! This project utilizes Next.js and OpenAI GPT to generate Islamic content based on user inputs. 
+
+## Overview 
+
+This application is built with Next.js, a React framework, to create an interactive web interface for users to input their preferences and receive dynamically generated Islamic content. The generation process relies on the power of OpenAI GPT, a state-of-the-art language model, to produce authentic and context-aware content. 
+
+## Features 
+
+- **User Input**: Allow users to provide input, such as topics, descriptions, or keywords related to Islamic content.
+- **Content Generation**: Utilize OpenAI GPT to generate rich and relevant Islamic content based on user inputs.
+- **Dynamic Rendering**: Render the dynamically generated content seamlessly within the Next.js application.
 
 ## Getting Started
 
