@@ -2,14 +2,13 @@ import React from 'react';
 
 interface RCardProps {
     // Define your component's props here
-    data?: string[];
     heading: String;
     description: String;
     icon: React.ReactNode; // Use React.ReactNode for the icon prop
     className?: String;
 }
 
-const RCard: React.FC<RCardProps> = ({ data, heading, description, icon, className }) => {
+const RCard: React.FC<RCardProps> = ({ heading, description, icon, className }) => {
     return (
         <div className={`flex gap-4 rounded-xl shadow-sm p-6 ${className || ''}`}>
             <div className="min-w-max">{icon}</div>
