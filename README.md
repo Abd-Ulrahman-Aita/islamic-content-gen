@@ -77,5 +77,5 @@ Contributions are welcome! If you encounter issues, have feature requests, or wa
 
 ## Acknowledgments
 
--OpenAI GPT: Thanks to OpenAI for providing the powerful GPT model.
--Next.js: The project is built using the Next.js framework.
+- OpenAI GPT: Thanks to OpenAI for providing the powerful GPT model.
+- Next.js: The project is built using the Next.js framework.
