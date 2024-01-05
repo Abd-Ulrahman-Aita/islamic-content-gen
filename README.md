@@ -14,6 +14,17 @@ This application is built with Next.js, a React framework, to create an interact
 
 ## Getting Started
 
+### Prerequisites 
+
+- Node.js: Ensure that you have Node.js installed on your machine. 
+
+### Installation 
+
+1. Clone the repository: 
+
+   ```bash
+   git clone https://github.com/Abd-Ulrahman-Aita/islamic-content-gen.git```
+
 First, run the development server:
 
 ```bash
