@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* smooth scrollbar */
+
+/* scrollbar width and height */
+::-webkit-scrollbar {
+  width    : 6px;
+  height   : 3px;
+}
+
+/* scroll bar style */
+::-webkit-scrollbar-track-piece {
+  background-color: darkgray;
+  border-radius   : 36px;
+}
+
+/* scroll bar (scroller) style */
+::-webkit-scrollbar-thumb {
+  height          : 50px;
+  background-color: #474646;
+  border-radius   : 36px;
+}
+
+/* .headings{
+  padding:2rem 2rem 0 2rem;
+} */
