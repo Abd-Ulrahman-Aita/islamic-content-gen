@@ -24,18 +24,29 @@ This application is built with Next.js, a React framework, to create an interact
 
    ```bash
    git clone https://github.com/Abd-Ulrahman-Aita/islamic-content-gen.git
+   ```
 
-First, run the development server:
+2. Navigate to the project directory:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   cd islamic-content-gen
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   yarn install
+   ```
+
+### Usage
+
+1. Start the development server:
+
+   ```bash
+   yarn run dev
+   ```
+
+2. Open your browser and visit `http://localhost:3000` to access the Islamic Content Generator.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
