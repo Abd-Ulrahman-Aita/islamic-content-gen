@@ -32,23 +32,23 @@ git clone https://github.com/Abd-Ulrahman-Aita/islamic-content-gen.git
 
 2. Navigate to the project directory:
 
-   ```bash
-   cd islamic-content-gen
-   ```
+```bash
+cd islamic-content-gen
+```
 
 3. Install dependencies:
 
-   ```bash
-   yarn install
-   ```
+```bash
+yarn install
+```
 
 ### Usage
 
 1. Start the development server:
 
-   ```bash
-   yarn run dev
-   ```
+```bash
+yarn run dev
+```
 
 2. Open your browser and visit `http://localhost:3000` to access the Islamic Content Generator.
 
