@@ -62,10 +62,7 @@ export default function Home() {
       })
 
       if (!apiResponse.ok) {
-        if (apiResponse.status === 401) {
-          // Unauthorized
-          alert('Unauthorized. Please check your credentials.');
-        } else if (apiResponse.status === 500) {
+        if (apiResponse.status === 500) {
           // Internal Server Error
           alert('Internal Server Error. Please try again later.');
         } else {
